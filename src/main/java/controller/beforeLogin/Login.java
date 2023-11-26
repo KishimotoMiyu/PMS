@@ -41,6 +41,17 @@ import model.dao.PMSDAO;
 //		CONSTRAINT Info_PK PRIMARY KEY (userNo)  プライマリキー　ユーザーNo
 //	)
 
+//INSERT INTO PMS.UserLogin ( userId , pass , count , userNo )VALUES 
+//( 'tanaka' , 'c3653826a479f4d58a99427bd9b77db4d7db6dfb3a738b77409a1876b0721ec9' , 1),
+//( 'satou' , '723768eccda79b68eae1ddcb4ebdb95e75cc636750758b6f6e45e57d850d50d4' , 2),
+//( 'yamamoto' , '188d051ef0c6c22fa2d5c6bed7b88283b650a4926aa27e47ba2a0a78a7f1bbc0' , 3),
+//( 'suzuki' , '770603b543748d0713359a81f9ad55388c9a83dceef41e80becb08d61c7f962e' , 4)
+
+//INSERT INTO PMS.List ( affiliation , post, name , job , birthday , gender )VALUES
+//('経理課' , '課長' , '田中ひろし' , '課内全体管理'  , '1985-01-15' , '男性’),
+//('人事課' , '課長' , '佐藤ようこ' , '課内全体管理'  , '1984-08-13' , '女性'),
+//('営業課' , '課長' , '山本たかし' , '課内全体管理'  , '1987-06-27' , '男性’),
+//('経理課','主任','鈴木たかこ','会計','1991-05-19','女性')
 
 @WebServlet("/login")
 public class Login extends HttpServlet {

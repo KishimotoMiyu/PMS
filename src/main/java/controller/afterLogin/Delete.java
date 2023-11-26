@@ -88,7 +88,7 @@ public class Delete extends HttpServlet {
 				}
 			}
 
-		    sql = "DELETE FROM PMS.List WHERE userNo = " + deleteUser;
+			sql = "DELETE FROM PMS.UserLogin WHERE userNo = " + deleteUser;
 			try {
 				 dao.zeroDAO(sql);
 			} catch (SQLException e) {
@@ -98,8 +98,8 @@ public class Delete extends HttpServlet {
 		        e.printStackTrace();
 		        throw new ServletException("Generate hash Failed", e);
 		    }
-			
-			 sql = "DELETE FROM PMS.UserLogin WHERE userNo = " + deleteUser;
+			sql = "DELETE FROM PMS.List WHERE userNo = " + deleteUser;
+			 
 			
 			try {
     		   dao.zeroDAO(sql);
