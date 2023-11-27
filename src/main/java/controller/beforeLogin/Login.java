@@ -33,7 +33,7 @@ import model.dao.PMSDAO;
 //CREATE TABLE PMS.List (
 //		userNo INTEGER auto_increment NOT NULL,　ユーザーNo
 //		affiliation varchar(100) NOT NULL,		 部署
-//		post varchar(100) NULL,					 役職
+//		post varchar(100) NOT NULL,				 役職
 //		name varchar(100) NOT NULL,				 氏名
 //		job varchar(100) NOT NULL,　　　　　　　　　職務内容
 //		birthday DATE NOT NULL,　　　　　　　　　　　生年月日
